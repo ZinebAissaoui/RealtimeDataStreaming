@@ -1,0 +1,30 @@
+# Fichiers de logs
+*.log
+logs/
+npm-debug.log*
+
+# Environnements virtuels
+env/
+.venv/
+
+# Dépendances Python
+__pycache__/
+*.pyc
+
+# Fichiers sensibles (clés, mots de passe)
+*.env
+*.key
+
+# Configuration locale
+.vscode/
+.idea/
+
+# Dépendances Node.js
+node_modules/
+
+# Build et fichiers temporaires
+dist/
+build/
+*.tmp
+.DS_Store  # Pour macOS
+Thumbs.db  # Pour Windows
